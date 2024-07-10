@@ -53,7 +53,7 @@ body:
       label: Experiment?
       description: Experiment ids
       placeholder: historical,ssp126,ssp245
-      value: "List of experiments comma separated"
+      value: "List of experiments comma separated, ex: historical,ssp126,ssp245"
     validations:
       required: true
 
@@ -64,7 +64,7 @@ body:
       label: Variables?
       description: Variable ids
       placeholder: tas,tasmin,tasmax
-      value: "List of variables comma separated"
+      value: "List of variables comma separated, ex: tas,tasmin,tasmax"
     validations:
       required: true
 
@@ -76,7 +76,7 @@ body:
       label: Frenquency?
       description: Frequency
       placeholder: 3hr,day
-      value: "List of models comma separated"
+      value: "List of models comma separated, ex: 3hr,day"
     validations:
       required: true
 
@@ -87,6 +87,6 @@ body:
       label: variant label
       description: Variant label if possible
       placeholder: r1i1p1f1
-      value: "List of variant labels"
+      value: "List of variant labels, ex: r1i1p1f1,r2i1p1f1"
     validations:
       required: true
