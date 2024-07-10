@@ -1,0 +1,92 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: What project data do you need?
+      options:
+        - CMIP6
+        - CMIP5
+        - CORDEX
+        - obs4MIPS
+        - input4MIPS
+      default: 0
+    validations:
+      required: true
+
+
+
+  - type: textarea
+    id: Model
+    attributes:
+      label: Model?
+      description: Model or source id
+      placeholder: Model (source id)
+      value: "List of models comma separated (except IPSL models, already on disk!)"
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: Experiment
+    attributes:
+      label: Experiment?
+      description: Experiment ids
+      placeholder: historical,ssp126,ssp245
+      value: "List of experiments comma separated"
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: Variables
+    attributes:
+      label: Variables?
+      description: Variable ids
+      placeholder: tas,tasmin,tasmax
+      value: "List of variables comma separated"
+    validations:
+      required: true
+
+
+
+  - type: textarea
+    id: Frequency
+    attributes:
+      label: Frenquency?
+      description: Frequency
+      placeholder: 3hr,day
+      value: "List of models comma separated"
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: Variant label
+    attributes:
+      label: variant label
+      description: Variant label if possible
+      placeholder: r1i1p1f1
+      value: "List of variant labels"
+    validations:
+      required: true
