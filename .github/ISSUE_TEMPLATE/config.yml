@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
+  - name: Documentation CLIMERI
+    url: https://climeri-france.fr/acces-plateforme/
+    about: Please check the documentation here. If you have any questions, send them to the mailing list replication@listes.ipsl.fr
