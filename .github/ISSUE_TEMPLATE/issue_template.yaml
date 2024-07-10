@@ -39,7 +39,7 @@ body:
   - type: textarea
     id: Model
     attributes:
-      label: Model?
+      label: Model
       description: List of models comma separated (except IPSL models, already on disk!)
       placeholder: ACCESS-ESM2-5
       value: "ACCESS-ESM2-5,CNRM-ESM2-1,EC-Earth3"
@@ -50,7 +50,7 @@ body:
   - type: textarea
     id: Experiment
     attributes:
-      label: Experiment?
+      label: Experiment
       description: List of experiments comma separated
       placeholder: historical,ssp126,ssp245
       value: "historical,ssp126,ssp245"
@@ -61,7 +61,7 @@ body:
   - type: textarea
     id: Variables
     attributes:
-      label: Variables?
+      label: Variables
       description: List of variables comma separated
       placeholder: tas,tasmin,tasmax
       value: "tas,tasmin,tasmax"
@@ -73,7 +73,7 @@ body:
   - type: textarea
     id: Frequency
     attributes:
-      label: Frenquency?
+      label: Frenquency
       description: List of models comma separated
       placeholder: 3hr,day
       value: "3hr,day"
@@ -84,7 +84,7 @@ body:
   - type: textarea
     id: Variant-label
     attributes:
-      label: variant label
+      label: Variant
       description: List of variant labels
       placeholder: r1i1p1f1
       value: "r1i1p1f1,r2i1p1f1"
