@@ -2,7 +2,7 @@ name: ESPRI data request form / Demande de données ESPRI
 description: Data request form for ESPRI users.
 title: "[Data Request]: "
 labels: ["enahancement"]
-projects: ["AtefBN/1""]
+projects: ["AtefBN/1"]
 assignees:
   - AtefBN
 body:
