@@ -1,6 +1,6 @@
 name: ESPRI data request form / Demande de données ESPRI
 description: Data request form for ESPRI users.
-title: "[Data Request]: "
+title: "[Data Request]"
 labels: ["enahancement"]
 projects: ["AtefBN/1"]
 assignees:
@@ -51,7 +51,7 @@ body:
     id: Experiment
     attributes:
       label: Experiment?
-      description: List of experiments comma separated, ex: historical,ssp126,ssp245
+      description: List of experiments comma separated
       placeholder: historical,ssp126,ssp245
       value: "historical,ssp126,ssp245"
     validations:
@@ -62,7 +62,7 @@ body:
     id: Variables
     attributes:
       label: Variables?
-      description: List of variables comma separated, ex: tas,tasmin,tasmax
+      description: List of variables comma separated
       placeholder: tas,tasmin,tasmax
       value: "tas,tasmin,tasmax"
     validations:
@@ -74,7 +74,7 @@ body:
     id: Frequency
     attributes:
       label: Frenquency?
-      description: List of models comma separated, ex: 3hr,day
+      description: List of models comma separated
       placeholder: 3hr,day
       value: "3hr,day"
     validations:
@@ -85,7 +85,7 @@ body:
     id: Variant-label
     attributes:
       label: variant label
-      description: List of variant labels, ex: r1i1p1f1,r2i1p1f1
+      description: List of variant labels
       placeholder: r1i1p1f1
       value: "r1i1p1f1,r2i1p1f1"
     validations:
